@@ -1,4 +1,12 @@
 import streamlit as st
+
+st.set_page_config(page_title="🌸 Face Detector App", page_icon="📷", layout="centered")
+
+st.title("🌸 Face Detector")
+st.markdown("Detect faces in your image with a clean and elegant interface 💫")
+
+
+import streamlit as st
 import cv2
 import numpy as np
 from PIL import Image
